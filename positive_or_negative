@@ -58,3 +58,21 @@ void main()
         printf("Number %d is negative",n);
     }
 }
+
+#Code 3
+//Program to find whether the number is positive or negative using ternary operator
+#include<stdio.h>
+void main()
+{
+ float n;
+    printf("Enter the number");
+    scanf("%f",&n);
+    if(n==0)
+    {
+        printf("The number %f is zero",n);
+    }
+    else
+    {
+    (n>0)?printf("%f is positive",n):printf("%f is negative",n);
+    }
+}
