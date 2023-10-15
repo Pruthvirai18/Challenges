@@ -29,4 +29,18 @@ void main()
 }
 
 #Code 3
+//Program to check whether the number is even or odd using bitwise operator
+#include<stdio.h>
+int iseven(int n)
+{
+    return(!(n&1));
+}
+void main()
+{
+ int n;
+    printf("Enter the number");
+    scanf("%d",&n);
+    iseven(n)?printf("%d is even",n):printf("%d is odd",n);
+   
+}
 
