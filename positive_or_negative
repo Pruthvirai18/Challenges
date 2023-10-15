@@ -1,4 +1,4 @@
-//Program to check whether number is positive or negative-1
+/*Program to check whether number is positive or negative-1*/
 int main()
 {
 num=24;
@@ -10,4 +10,25 @@ else
 {
 }
 return 0;
+}
+
+//Check whether the number is positive or negative by trial and error method
+#include<stdio.h>
+void main()
+{
+    int n;
+    printf("Enter a number");
+    scanf("%d",&n);
+    if(n>0)
+    {
+        printf("Number %d is positive",n);
+    }
+    else if(n<0)
+    {
+       printf("Number %d is negative",n);  
+    }
+    else
+    {
+        printf("Number %d is zero",n);
+    }
 }
