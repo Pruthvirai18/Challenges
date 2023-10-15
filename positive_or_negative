@@ -33,3 +33,28 @@ void main()
         printf("Number %d is zero",n);
     }
 }
+
+#Code 2
+//Check whether the number is positive or negative using nested if-else statements
+#include<stdio.h>
+void main()
+{
+    int n;
+    printf("Enter a number");
+    scanf("%d",&n);
+    if(n>=0)
+    {
+        if(n>0)
+        {
+            printf("Number %d is positive",n);
+        }
+        else
+        {
+            printf("Number %d is zero",n);
+        }
+    }
+    else
+    {
+        printf("Number %d is negative",n);
+    }
+}
