@@ -12,6 +12,7 @@ else
 return 0;
 }
 
+#Code 1
 //Check whether the number is positive or negative by trial and error method
 #include<stdio.h>
 void main()
