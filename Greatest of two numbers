@@ -1,7 +1,7 @@
 #Code 1
 //To find the greatest of the two numbers using if-else
 #include<stdio.h>
-int main()
+void main()
 {
     int a,b;
     printf("Enter the value for a and b ");
