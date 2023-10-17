@@ -19,3 +19,22 @@ void main()
         printf("%d is lesser than %d",a,b);
     }
 }
+
+#Code 2
+//To Find the Greatest of the Two Numbers using ternary operator
+#include<stdio.h>
+int main()
+{
+    int a,b;
+    printf("Enter the value for a and b ");
+    scanf("%d %d",&a,&b);
+    if(a==b)
+    {
+        printf("%d and %d are equal",a,b);
+    }
+    else
+    {
+        a>b?printf("%d is greater than %d",a,b):printf("%d is lesser than %d",a,b);
+    }
+    return(0);
+}
