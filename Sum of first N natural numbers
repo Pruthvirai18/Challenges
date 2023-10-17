@@ -1,0 +1,13 @@
+//To find the sum of first N natural numbers by iterative method
+#include <stdio.h>
+void main()
+{
+    int n,i,sum=0;
+    printf("Enter the total no to be printed");
+    scanf("%d",&n);
+    for(i=1;i<=n;i++)
+    {
+        sum=sum+i;
+    }
+    printf("Sum of first N natural no is %d",sum);
+}
