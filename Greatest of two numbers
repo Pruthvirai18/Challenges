@@ -1,5 +1,5 @@
 #Code 1
-//To Find the Greatest of the Two Numbers using if-else
+//To find the greatest of the two numbers using if-else
 #include<stdio.h>
 int main()
 {
