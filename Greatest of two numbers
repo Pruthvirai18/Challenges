@@ -1,0 +1,21 @@
+#Code 1
+//To Find the Greatest of the Two Numbers using if-else
+#include<stdio.h>
+int main()
+{
+    int a,b;
+    printf("Enter the value for a and b ");
+    scanf("%d %d",&a,&b);
+    if(a==b)
+    {
+        printf("Both %d and %d are equal",a,b);
+    }
+    else if(a>b)
+    {
+        printf("%d is greater than %d",a,b);
+    }
+    else 
+    {
+        printf("%d is lesser than %d",a,b);
+    }
+}
