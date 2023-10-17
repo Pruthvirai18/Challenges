@@ -9,3 +9,18 @@ void main()
     sum=b*(b+1)/2-a*(a+1)/2+a;
     printf("Sum of no.s in a given range is %d",sum);
 }
+
+#Code 2
+//Program to find the Sum of numbers in a given range using brute force
+#include<stdio.h>
+void main()
+{
+ int a,b,i,sum=0;
+ printf("Enter the value for a and b");
+ scanf("%d %d",&a,&b);
+ for(i=a;i<=b;i++)
+{
+        sum=sum+i;
+ }
+    printf("Sum of no.s in a given range is %d",sum);
+}
