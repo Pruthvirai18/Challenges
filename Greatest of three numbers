@@ -19,3 +19,17 @@ void main()
         printf("%d is greatest",c);
     }
 }
+
+#Code 2
+//To Find the Greatest of the Three Numbers using ternary operator
+#include <stdio.h>
+void main()
+{
+    int a,b,c,temp,result;
+    printf("Enter the value for a,b and c");
+    scanf("%d %d %d",&a,&b,&c);
+    temp=a>b?a:b;
+    result=temp>c?temp:c;
+    printf("%d is greatest",result);
+}
+
