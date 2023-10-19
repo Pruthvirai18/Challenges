@@ -23,5 +23,26 @@ void main()
     scanf("%d",&n);
     sum=n*(n+1)/2;
   printf("Sum of first N natural number is %d",sum);
-   
+}
+
+#Code 3
+//To find sum of N natural no.s using recursion
+#include<stdio.h>
+int sum(int n)
+{
+    if(n==0)
+    {
+        return(0);
+    }
+    else
+    {
+        return n+sum(n-1);
+    }
+}
+int main()
+{
+    int n;
+    printf("Enter total no.s be printed");
+    scanf("%d",&n);
+    printf("sum of N natural no.s are %d",sum(n));
 }
