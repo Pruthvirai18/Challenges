@@ -45,4 +45,5 @@ int main()
     printf("Enter total no.s be printed");
     scanf("%d",&n);
     printf("sum of N natural no.s are %d",sum(n));
+    return(0);
 }
