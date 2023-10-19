@@ -24,3 +24,26 @@ void main()
  }
     printf("Sum of no.s in a given range is %d",sum);
 }
+
+#Code 3
+//To find Sum of no.s in given range using recursion in C
+#include <stdio.h>
+int sum(int a,int b)
+{
+    if(a==b)
+    {
+        return a;
+    }
+    else
+    {
+        return a+sum(a+1,b);
+    }
+}
+int main()
+{
+    int a,b;
+    printf("Enter the value for an and b");
+    scanf("%d %d" ,&a,&b);
+    printf("Sum of no.s in given range is %d",sum(a,b));
+    return(0);
+}
