@@ -1,3 +1,4 @@
+#Code 1
 //Addition of two numbers
 #include<stdio.h>
 void main()
@@ -7,4 +8,41 @@ void main()
     scanf("%d%d",&a,&b);
     sum=a+b;
     printf("Sum of two no.s is %d",sum);
+}
+
+#Code 2
+//Cube of a number
+#include<stdio.h>
+void main()
+{
+    int num,cube;
+    printf("Enter a number");
+    scanf("%d",&num);
+    cube=num*num*num;
+    printf("cube of a no is %d",cube);
+}
+
+#Code 3
+//To find simple interest
+#include<stdio.h>
+void main()
+{
+    float P,T,R,SI;
+    printf("Enter prncipal,time and rate");
+    scanf("%f %f %f",&P,&T,&R);
+    SI=(P*T*R)/100;
+    printf("Simple Interser is %f",SI);
+}
+
+#Code 4
+//C program to find area and perimeter of a circle
+#include<stdio.h>
+void main()
+{
+    float radius,area,perimeter;
+    printf("Enter the radius of a circle");
+    scanf("%f",&radius);
+    area=3.14*radius*radius;
+    perimeter=2*3.14*radius;
+    printf("Area and Perimeter of a circle are %.2f and %.2f",area,perimeter);
 }
